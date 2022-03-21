@@ -1,0 +1,8 @@
+body { padding: 0; margin: 0; font-family: 'Red Hat Mono', monospace; color: #fff; }
+.site_container { display: flex; flex-direction: row; justify-content: center; align-items: flex-start; } 
+.col_right { background-color: #fff; width: 80%; }
+.col_left { background-color: #277da1; width: 20%; height: 100vh; padding: 3rem; }
+
+.grid_container { display: flex; justify-content: center; align-items: center; height: 100vh; } 
+#grid { display: flex; justify-content: center; align-content: center; flex-wrap: wrap; width: 50rem; }
+#grid img { margin: 0.5rem; width: 10rem; height: 10rem; border: solid 1px #f3722c; }
